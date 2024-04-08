@@ -30,4 +30,8 @@ fn main() {
                 .expect("Unable to write to file");
         }}
         
+        writeln!(file, "TEMPERATURES").expect("Unable to write to file");
+
+
+
     }
